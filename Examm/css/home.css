@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    background-image: url("https://lcamile.github.io/Camile_WebDev_Finals/Exam/Team7-logo.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    
+  }
+  .nav{
+    letter-spacing:3px;
+    
+  }
+  .links{
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: absolute;
+  }
+  nav{
+    width: 100%;
+    height: 60px;
+    background-color: #f3f3f3;
+  }
+  nav p {
+    font-family: arial;
+    color: #f37474;
+    font-size: 30px;
+    line-height: 55px;
+    float: left;
+    padding: 0px 20px;  
+  }
+  nav ul{
+    float: left;
+  }
+  nav ul li{  
+    float: left;
+    list-style: none;
+    position: relative;
+  }
+  nav ul li a{
+    display: block;
+     font-family: arial;
+    color: #222;
+      font-size: 14px;
+   padding: 21px 14px;
+    text-decoration: none;
+  }
+  nav ul li a:hover{
+    color:#f37474;
+    
+  }
+  nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: #f3f3f3;
+    padding: 10px;
+    border-radius:0px 0px 4px 4px;
+  }
+  nav ul li:hover ul {
+    display: block;
+  
+  }
+  nav ul li ul li  {
+   width: 180px;
+    border-radius: 4px;
+  }
+  nav ul li ul li a {
+   padding: 8px 14px;
+  }
+  nav ul li ul li a:hover {
+   padding: 8px 14px;
+     background-color: #f3f3f3;
+  }
+  
+  
+  .big-box{
+    border-radius: 5px;
+    font-size: 20px;
+  }
+  input {
+    padding: 10px;
+    margin-bottom: 50px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid;
+  
+   
+  }
+  input[type="text"],
+  input[type="date"],
+  input[type="password"],
+  input[type="email"]{
+    
+      width: 130%;
+  }
+  input:focus{
+      background: transparent;
+      outline: none;
+  }
+  #drpLoginType{
+    font: 400 20px Arial;
+     
+  }
+  select{
+    margin-bottom: 20px;
+  }
+  h1 {
+    text-align: center;
+  color: white;
+     font-size: 300%;
+    margin-top: 65px;
+   
+  }
+  
+  table {
+    padding: 90px;
+    
+  }
+  
+  button {
+    background-color:#151E3D; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+  
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 15px;
+    margin-top: 25px;
+  }
+  input:valid {
+      border-bottom: 1px solid greenyellow;
+      background:transparent;
+  }
+  input:focus:invalid {
+      border-bottom: 1px solid red;
+      background:transparent;
+  }
+  option{
+     
+  font-size: 20px;
+   
+  }
+  option{
+    color: white;
+    font-size: 20px;
+   background: rgba(0, 0, 0, 0.5);
+  
+  }
+  select{
+     color: white;
+  font-size: 20px;
+    background: rgba(0, 0, 0, 0.1);
+     padding: 8px;
+  }
+  button:hover{
+      border-bottom: 1px solid gray;
+      background: #003366;
+  }
+  ::-webkit-calendar-picker-indicator {
+      filter: invert(1);
+  }
+  
+  
+  
+    footer {
+      position: absolute;
+    background-color: #f3f3f3;
+    top: 60rem;
+    width: 100%;
+    height: 3.5rem;
+       margin-top: 100px;
+    color: black;
+    text-align: center;   
+  }
+  .logo{
+    margin-top: 2px;
+    width: 30px;
+    height: 30px;
+  }
+  #image {
+      display: inline-block;
+  }
+  .contact>p{
+    font-size: 2rem;
+      color: black;
+  }
+  
+  
+*{
+    font-family: Lucidatypewriter;
+  }
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
